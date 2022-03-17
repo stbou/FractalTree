@@ -29,7 +29,7 @@ void ofApp::draw() {
 	camera.begin();
 	camera.setVFlip(true);
 
-	ofRotate(ofGetElapsedTimef() * 10, 0, 1, 0);
+	if (rotate) ofRotate(ofGetElapsedTimef() * 10, 0, 1, 0);
 
 	ofTranslate(window_width / 12, window_height / 2, 0);
 	branch(branch_ui, line_ui);
@@ -72,17 +72,30 @@ void ofApp::branch(float len, int line) {
 
 	}
 
-
-
 }
 
 //--------------------------------------------------------------
-void ofApp::keyPressed(int key) {
+void ofApp::keyPressed(int key) {	
 
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key) {
+
+	switch (key)
+	{
+		case 49: // key number 1 
+			rotate = true;			
+			break; 
+
+		case 50: // key number 2
+			rotate = false; 
+			break; 
+
+		default: 
+		break;
+	}
+	
 
 }
 

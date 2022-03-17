@@ -44,4 +44,6 @@ public:
 	int expand;
 
 	int line_weight;
+
+	bool rotate; 
 };
