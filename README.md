@@ -2,6 +2,7 @@
 
 Fractal Tree - openFramework
 
+![fractalTree](https://user-images.githubusercontent.com/74576298/158898377-643a6acc-4bb9-4099-b7d2-af90c7a900f4.png)
 
 
 Procédure pouyr executer le projet --> 
