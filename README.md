@@ -1,9 +1,10 @@
 # FractalTree
 
 
-Simple example for fractal tree with openFrameworks.
+Simple example for fractal tree made with openFrameworks.
 
-![fractalTree](https://user-images.githubusercontent.com/74576298/158898377-643a6acc-4bb9-4099-b7d2-af90c7a900f4.png)
+![fractalTree](https://user-images.githubusercontent.com/74576298/158900617-4d998923-03cd-458f-a8f8-9e59cdd1a332.png)
+
 
 
 
